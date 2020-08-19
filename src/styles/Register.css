@@ -1,0 +1,97 @@
+.Login{
+  background: white;
+}
+.Login {
+  text-align: center;
+}
+
+.Login-logo {
+  animation: Login-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Login-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Login-title {
+  font-size: 1.5em;
+}
+
+.Login-intro {
+  font-size: large;
+}
+
+@keyframes Login-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container3 {
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow:0px 16px 16px;
+  
+}
+.back {
+  padding-top: 20px;
+  text-align: center;
+  color: black;
+}
+.btn1 {
+ 
+  padding-left: 180px;
+  text-decoration: none;
+  letter-spacing: var(--mainSpacing);
+  color: black;
+  background: #82ce82;
+  border-radius: 5px;
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+}
+button {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 105px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-decoration: none;
+  letter-spacing: var(--mainSpacing);
+  color: black;
+  background: #f0000c;
+  transition: var(--mainTransition);
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.profile
+{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  justify-Content: center;
+  margin-left: 180px;
+  display: flex;
+
+}
