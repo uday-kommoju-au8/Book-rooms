@@ -18,6 +18,7 @@ const Payment = () => {
                     id="fname"
                     name="firstname"
                     placeholder="John M. Doe"
+                    required
                   />
                   <label for="email">Email</label>
                   <input
@@ -25,6 +26,7 @@ const Payment = () => {
                     id="email"
                     name="email"
                     placeholder="john@example.com"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"
                   />
                   <label for="adr">Address</label>
                   <input
@@ -32,6 +34,7 @@ const Payment = () => {
                     id="adr"
                     name="address"
                     placeholder="542 W. 15th Street"
+                    required
                   />
                   <label for="city">City</label>
                   <input
